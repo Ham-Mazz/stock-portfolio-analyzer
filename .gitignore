@@ -1,0 +1,13 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore the database file (so we don't upload large binary data)
+*.db
+data/*.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
